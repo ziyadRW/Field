@@ -1,0 +1,72 @@
+:root {
+    --main-background-color: #79f266;
+  }
+  
+  .box-area {
+    width: 930px;
+  }
+  
+  .wrapper {
+    background-image: url(../images/KSU_Stadium.jpeg);
+    background-size: cover;
+  
+    backdrop-filter: blur(9px);
+  }
+  
+  .featured-image img,
+  nav img {
+    animation: rotation 20s infinite linear;
+  }
+  .mainBG {
+    background-color: var(--main-background-color);
+  }
+  .mainBG-75 {
+    background-color: var(--main-background-color);
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  .current::before {
+    content: "";
+    position: absolute;
+    left: 15%;
+  
+    bottom: -7px;
+    width: 65%;
+    height: 3px;
+    background-color: black;
+    border-radius: 3px;
+  }
+  .blue-box {
+    min-height: 30px;
+    background-color: rgb(247, 21, 21);
+  }
+  .card-img-top {
+    height: 300px;
+  }
+  .mt-6 {
+    margin-top: 100px;
+  }
+  .width-100 {
+    width: 100;
+  }
+  /*  */
+
+#searchtxt{
+  border: none;
+  border-radius: 12px;
+  padding: 5px;
+}
+.search-btn{
+  background-color: #79f266;
+  border: none;
+}
+.material-symbols-outlined{
+  position: relative;
+  top: 5.5px;
+}
